@@ -1,0 +1,52 @@
+* *:hover{
+    background-color:yellow;
+}
+body{
+    background-image: url("../web_site/images/image.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.container{
+    border:10px solid white;
+    background-color:#fff;
+    margin:0 10%;
+}
+.header{
+    background-color:#A8F0F0;
+    text-align:right;
+}
+.header-text{
+    font-size:14pt;
+}
+.card{
+    border:4px solid #C2E9E9;
+    background-color:#E8FBFB;
+    padding:5px;
+    margin-top:10px;
+    overflow:auto;
+}
+.date{
+    border-bottom:2px dashed blue;
+}
+.card img{
+    float:right;
+}
+
+.box{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+.cards{
+    order:2;
+    width:80%;
+}
+.friends{
+    background-color:#A8F0F0;
+    padding:5px;
+    margin:10px;
+    height:120px;
+    flex-grow:4;
+    border:5px solid blue;
+}
